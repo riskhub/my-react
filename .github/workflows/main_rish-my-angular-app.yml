@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'rish-my-angular-app'
           slot-name: 'Production'
-          package: ./dist
+          package: ./build
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A165601DF861487D8F1EDCD0CDBE703F }}
